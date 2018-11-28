@@ -1,0 +1,14 @@
+{
+  "name": "rollup-share",
+  "version": "1.0.0",
+  "description": "Rollup 分享",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "rollup src/main.js -w -o dist/index.js -f esm -m inline",
+    "build": "rollup src/main.js -o dist/index.js -f esm -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
