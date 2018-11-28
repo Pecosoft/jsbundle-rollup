@@ -1,8 +1,8 @@
-export var m2 = function () {
+export const m2 = () => {
   console.log('run m2')
 }
 
-export var hello = function (someone) {
+export const hello = (someone) => {
   console.log('hello ' + someone)
 }
 

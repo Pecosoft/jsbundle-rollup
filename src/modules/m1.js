@@ -1,4 +1,4 @@
-function m1 () {
+const m1 = () => {
   console.log('run m1')
 }
 
